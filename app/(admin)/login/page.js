@@ -26,7 +26,7 @@ const AdminLogin = () => {
 
 
       localStorage.setItem("admin", JSON.stringify(data.admin));
-      document.cookie = "token=admin-token; path=/; max-age=7200"; 
+      document.cookie = "token=admin-token; path=/; max-age=7200";
       alert("Login successful!");
       router.push("/adminDashboard");
     } catch (error) {
@@ -72,7 +72,10 @@ const AdminLogin = () => {
         </form>
 
         <div className="mt-6 text-center">
-          <p className="text-sm text-gray-400">Don't have an account?</p>
+
+          <p className="text-sm text-gray-400">Don&apos;t have an account?</p>
+
+
           <button
             onClick={() => router.push("/signup")}
             className="mt-2 inline-block text-sm text-blue-400 hover:text-blue-500 hover:underline"
