@@ -73,7 +73,7 @@ const AdminLogin = () => {
 
         <div className="mt-6 text-center">
 
-          <p className="text-sm text-gray-400">Don&apos;t have an account?</p>
+          <p className="text-sm text-gray-400">Not having an account?</p>
 
 
           <button
